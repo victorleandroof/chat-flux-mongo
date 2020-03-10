@@ -1,0 +1,14 @@
+logging:
+    level:
+        org:
+            hibernate:
+                SQL: DEBUG
+            springframework:
+                data:
+                    mongodb:
+                        core:
+                            MongoTemplate: DEBUG
+spring:
+    data:
+        mongodb:
+            uri: ${MONGODB_URI}
